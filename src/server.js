@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 
-mongoose.connect('mongodb+srv://aaa:aaa@cluster0.lwsj4.mongodb.net/db?retryWrites=true&w=majority').then(() => {
+mongoose.connect('mongodb+srv://---:---@cluster0.lwsj4.mongodb.net/---?retryWrites=true&w=majority').then(() => {
   console.log("Database connected");
 });
 
